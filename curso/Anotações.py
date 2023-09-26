@@ -42,4 +42,33 @@ print('e agora está de castigo.')
 #trunc:elimina os numeros depois da virgula
 #pow:exponencial
 #sqrt:Raiz quadrada
-#factorial
+#factorial:
+
+
+#Manipulação de texto:
+
+#fatiamento de string, como por exemplo
+#len()
+#count()
+#find()
+#replace()
+#upper(): tudo maiusculo
+#lower():tudo minusculo
+#capitalize():primeira letra maiuscula restante minusculas
+#title():todas palavras iniciadas pela Maiúscula
+#strip():remove espaços antes ou após a string
+#lstrip(): remove apenas espaços antes da string
+#rstrip(): remove somente espaços após a string
+#split(): separa a string em partes que estão entre parênteses
+#join(): junta strings dentro de outra string
+#format(): formata valores dentro das chaves
+
+
+#len(frase) mostra o tamanho/quantidade de caracteres em uma frase
+#frase.count('o') conta quantos 'o' tem em uma frase, apenas o 'o' o 'O' não está incluido
+#o fatiamento pode ser utilizado com esse codigo, ex: frase.count('o',0.13)
+#o fatiamento normal ocorre como frase=[0:21:2]    0= começo                21= final/termino                2= quantas casas ele vai pulando.
+#A frase já deveria estar definida como "Frase='Meu amigo é o python'"
+#frase.find('amigo') encontra onde esta escrito 'amigo' na variavel Frase, caso não exista ele vai te retornar o valor '-1' ou seja não encontrado.
+# pode ser utilizado ('curso' in frase) ele te retornar como True ou False. para dizer se tem ou não, (operador, ele não é um comando.)
+#frase.replace('amigo','inimigo') autoexplicativo, ele substituie na frase.
