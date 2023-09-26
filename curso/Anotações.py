@@ -29,3 +29,8 @@
 nome = 'a'
 print('o armario do {} está dessarumado'.format(nome), end=' ')
 print('e agora está de castigo.')
+
+#Modulos, normalmente utilizados no começo de um codigo em python
+# Modulos são tipo "DLCS" de comandos para o python.
+# normalmente representado pelo comando : import "nome do módulo" mas importa o modulo INTEIRO.
+# tambem pode pegar algo especifico e não ele todo ex : from "nome do módulo" import "comando"
