@@ -16,59 +16,5 @@
         "description": "random",
         "detail": "random",
         "documentation": {}
-    },
-    {
-        "label": "palavra",
-        "kind": 5,
-        "importPath": "curso.exercicios.exercicio4",
-        "description": "curso.exercicios.exercicio4",
-        "peekOfCode": "palavra = input('Digite algo:')\nprint('O tipo primitivo dessa palavra é:' , type(palavra))\nprint('Só tem espaços?', palavra.isspace()) #o () depois do .isspace significa  (self) dele mesmo, ou seja ele vai verificar ele mesmo que seria a variavel palavra\nprint('é alfanumérico?', palavra.isalnum())\nprint('é alfabético?', palavra.isalpha())\nprint('está em maiúsculas', palavra.isupper())\nprint ('Esta capitalizada? ', palavra.istitle() )\nprint('é apenas numeros?' , palavra.isnumeric())",
-        "detail": "curso.exercicios.exercicio4",
-        "documentation": {}
-    },
-    {
-        "label": "nome",
-        "kind": 5,
-        "importPath": "curso.Anotações",
-        "description": "curso.Anotações",
-        "peekOfCode": "nome = 'a'\nprint('o armario do {} está desarumado'.format(nome), end=' ')\nprint('e agora está de castigo.')\n#Modulos, normalmente utilizados no começo de um codigo em python\n# Modulos são tipo \"DLCS\" de comandos para o python.\n# normalmente representado pelo comando : import \"nome do módulo\" mas importa o modulo INTEIRO.\n# tambem pode pegar algo especifico e não ele todo ex : from \"nome do módulo\" import \"comando\"\n#comando real:\n# import math\n# ele tem as funcionalidades:",
-        "detail": "curso.Anotações",
-        "documentation": {}
-    },
-    {
-        "label": "nome",
-        "kind": 5,
-        "importPath": "curso.Curso",
-        "description": "curso.Curso",
-        "peekOfCode": "nome = input('Qual seu nome?')\nprint('Olá', nome , 'Seja bem vindo!')\ndia = input('que dia você nasceu?')\nmês = input('e o mês que vc nasceu?')\nano = input('E em qual ano?')\nprint('Então você', nome, 'nasceu em', dia, 'do' , mês, 'de ', ano, '?')\nnumero1=input('escolha um numero!')\nnumero2=input('Escolha outro número!')\nresultado=int(numero1)+int(numero2)\nprint ('O resultado da soma é:', resultado , 'Espero ter acertado a sua equação incrivelmente complicada, ADEUS!')",
-        "detail": "curso.Curso",
-        "documentation": {}
-    },
-    {
-        "label": "dia",
-        "kind": 5,
-        "importPath": "curso.Curso",
-        "description": "curso.Curso",
-        "peekOfCode": "dia = input('que dia você nasceu?')\nmês = input('e o mês que vc nasceu?')\nano = input('E em qual ano?')\nprint('Então você', nome, 'nasceu em', dia, 'do' , mês, 'de ', ano, '?')\nnumero1=input('escolha um numero!')\nnumero2=input('Escolha outro número!')\nresultado=int(numero1)+int(numero2)\nprint ('O resultado da soma é:', resultado , 'Espero ter acertado a sua equação incrivelmente complicada, ADEUS!')",
-        "detail": "curso.Curso",
-        "documentation": {}
-    },
-    {
-        "label": "mês",
-        "kind": 5,
-        "importPath": "curso.Curso",
-        "description": "curso.Curso",
-        "peekOfCode": "mês = input('e o mês que vc nasceu?')\nano = input('E em qual ano?')\nprint('Então você', nome, 'nasceu em', dia, 'do' , mês, 'de ', ano, '?')\nnumero1=input('escolha um numero!')\nnumero2=input('Escolha outro número!')\nresultado=int(numero1)+int(numero2)\nprint ('O resultado da soma é:', resultado , 'Espero ter acertado a sua equação incrivelmente complicada, ADEUS!')",
-        "detail": "curso.Curso",
-        "documentation": {}
-    },
-    {
-        "label": "ano",
-        "kind": 5,
-        "importPath": "curso.Curso",
-        "description": "curso.Curso",
-        "peekOfCode": "ano = input('E em qual ano?')\nprint('Então você', nome, 'nasceu em', dia, 'do' , mês, 'de ', ano, '?')\nnumero1=input('escolha um numero!')\nnumero2=input('Escolha outro número!')\nresultado=int(numero1)+int(numero2)\nprint ('O resultado da soma é:', resultado , 'Espero ter acertado a sua equação incrivelmente complicada, ADEUS!')",
-        "detail": "curso.Curso",
-        "documentation": {}
     }
 ]
