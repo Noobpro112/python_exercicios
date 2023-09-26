@@ -60,7 +60,7 @@ print('e agora está de castigo.')
 #lstrip(): remove apenas espaços antes da string
 #rstrip(): remove somente espaços após a string
 #split(): separa a string em partes que estão entre parênteses
-#join(): junta strings dentro de outra string
+#join(): junta strings dentro de outra string          EX:           depois de um split deve usar o           '-'.join(frase)
 #format(): formata valores dentro das chaves
 
 
@@ -72,3 +72,6 @@ print('e agora está de castigo.')
 #frase.find('amigo') encontra onde esta escrito 'amigo' na variavel Frase, caso não exista ele vai te retornar o valor '-1' ou seja não encontrado.
 # pode ser utilizado ('curso' in frase) ele te retornar como True ou False. para dizer se tem ou não, (operador, ele não é um comando.)
 #frase.replace('amigo','inimigo') autoexplicativo, ele substituie na frase.
+
+
+#curso ep 9 parei aos 30:47
