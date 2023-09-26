@@ -9,6 +9,15 @@
         "documentation": {}
     },
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
         "label": "palavra",
         "kind": 5,
         "importPath": "curso.exercicios.exercicio4",
