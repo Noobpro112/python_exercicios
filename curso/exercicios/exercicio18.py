@@ -1,7 +1,8 @@
-caop=float(input('Qual seu cateto oposto?'))
-caad=float(input('Qual seu cateto adjascente?'))
-hipotenusa=float(input('Qual sua hipotenusa?'))
-seno=caop/hipotenusa
-cosseno=caad/hipotenusa
-tangente=caop/caad
-print('O seu seno é {} o seu cosseno é {} e a sua tangente é {}'.format(seno,cosseno,tangente))
+import math
+angulo = float(input('Digite o angulo que você deseja.'))
+seno=math.sin(math.radians(angulo))
+print('o Angulo tem de {} tem o SENO de {:.2f}'.format(angulo,seno))
+cosseno=math.cos(math.radians(angulo))
+print ('O Ângulo tem de {} tem o COSSENO de {}'.format (angulo , cosseno ))
+tangente=math.tan(math.radians(angulo))
+print('{} tem a TANGENTE de {:.2f} '.format(angulo, tangente) )
