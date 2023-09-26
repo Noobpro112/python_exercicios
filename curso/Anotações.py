@@ -27,10 +27,19 @@
 
 #caso queria quebrar uma linha no meio de um print basta colocar \n (sim barra ao contrario) e caso não queira quebrar a linha de uma print para outra basta colocar end='' no final, EX:
 nome = 'a'
-print('o armario do {} está dessarumado'.format(nome), end=' ')
+print('o armario do {} está desarumado'.format(nome), end=' ')
 print('e agora está de castigo.')
 
 #Modulos, normalmente utilizados no começo de um codigo em python
 # Modulos são tipo "DLCS" de comandos para o python.
 # normalmente representado pelo comando : import "nome do módulo" mas importa o modulo INTEIRO.
 # tambem pode pegar algo especifico e não ele todo ex : from "nome do módulo" import "comando"
+#comando real:
+# import math
+# ele tem as funcionalidades:
+#ceil: arredonda para cima
+#floor: arredonda para baixo
+#trunc:elimina os numeros depois da virgula
+#pow:exponencial
+#sqrt:Raiz quadrada
+#factorial
