@@ -13,7 +13,7 @@ driver.get('https://github.com/Noobpro112')
 
 while True:
     # Espere 5 segundos
-    time.sleep(5)
+    time.sleep(0)
     
     # Recarregue a página
     driver.refresh()
