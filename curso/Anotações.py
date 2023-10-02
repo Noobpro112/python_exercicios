@@ -26,9 +26,9 @@
 # + , -
 
 #caso queria quebrar uma linha no meio de um print basta colocar \n (sim barra ao contrario) e caso não queira quebrar a linha de uma print para outra basta colocar end='' no final, EX:
-nome = 'a'
+"""nome = 'a'
 print('o armario do {} está desarumado'.format(nome), end=' ')
-print('e agora está de castigo.')
+print('e agora está de castigo.')"""
 
 #Modulos, normalmente utilizados no começo de um codigo em python
 # Modulos são tipo "DLCS" de comandos para o python.
