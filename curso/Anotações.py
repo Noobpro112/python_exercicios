@@ -73,5 +73,4 @@ print('e agora está de castigo.')
 # pode ser utilizado ('curso' in frase) ele te retornar como True ou False. para dizer se tem ou não, (operador, ele não é um comando.)
 #frase.replace('amigo','inimigo') autoexplicativo, ele substituie na frase.
 
-
-#curso ep 9 parei aos 30:47
+#Print com aspas tripla coloca TUDO em comentario
