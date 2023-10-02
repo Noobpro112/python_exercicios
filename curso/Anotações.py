@@ -70,6 +70,8 @@ print('e agora está de castigo.')
 #o fatiamento normal ocorre como frase=[0:21:2]    0= começo                21= final/termino                2= quantas casas ele vai pulando.
 #A frase já deveria estar definida como "Frase='Meu amigo é o python'"
 #frase.find('amigo') encontra onde esta escrito 'amigo' na variavel Frase, caso não exista ele vai te retornar o valor '-1' ou seja não encontrado.
+#o find acha a primeira vez que a letra apareceu
+#o rfind começa pelo lado direito ou seja de tras para frente
 # pode ser utilizado ('curso' in frase) ele te retornar como True ou False. para dizer se tem ou não, (operador, ele não é um comando.)
 #frase.replace('amigo','inimigo') autoexplicativo, ele substituie na frase.
 
