@@ -76,3 +76,19 @@ print('e agora está de castigo.')"""
 #frase.replace('amigo','inimigo') autoexplicativo, ele substituie na frase.
 
 #Print com aspas tripla coloca TUDO em comentario
+
+"""
+Condições Aninhadas:
+
+
+
+
+
+
+
+
+
+
+
+
+"""
