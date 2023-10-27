@@ -1,6 +1,12 @@
-frase=str(input("Sua palavra é um palindromo? "))
-frase1=frase.replace(" ","").lower()
-if frase1 == frase1[::-1]:
-    print("É Um palindromo.")
+n = int(input("Verificar numeros primos ate: "))
+mult=0
+
+for count in range(2,n):
+    if (n % count == 0):
+        print("Múltiplo de",count)
+        mult += 1
+
+if(mult==0):
+    print("É primo")
 else:
-    print("Não é um palindromo")
+    print("Tem {} múltiplos acima de 2 e abaixo de".format(mult))
