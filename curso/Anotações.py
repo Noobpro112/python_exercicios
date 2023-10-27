@@ -78,17 +78,34 @@ print('e agora está de castigo.')"""
 #Print com aspas tripla coloca TUDO em comentario
 
 """
-Condições Aninhadas:
+Laços de Repetição (For):
 
+Em portugues um exemplo seria:
 
+Laço c no intervalo(1,10):           OBS: C é uma variavel; Pode ser chamada de como quiser.
+    passo
+pega
 
+Obs: veja que o "pega" está fora do laço já que ficou fora da identação! Logo ele repete tudo que estiver dentro dele por identação.
 
+Em python agora fica.
 
+for c in range(1,10):
+    passo
+pega
 
+(Lembrando que o 1 é 0...)
 
+É possivel usar if e else em laço for. ou seja
 
+for i range(0,1):
+    if rafael=="Amigo":
+        print("Amigo estou aqui!")
+    else:
+        print("O seus problemas, São meus Tambem!")
+print("Toy Story Referency")
 
-
+(Sempre prestando atenção na identação.)
 
 
 """
