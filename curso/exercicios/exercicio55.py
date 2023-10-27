@@ -12,5 +12,5 @@ for i in range(1, 6):
         if peso < menor_peso:
             menor_peso = peso
 
-print(f'O maior peso lido foi de {maior_peso}kg')
-print(f'O menor peso lido foi de {menor_peso}kg')
+print('O maior peso lido foi de {}kg'.format(maior_peso))
+print('O menor peso lido foi de {}kg'.format(menor_peso))
