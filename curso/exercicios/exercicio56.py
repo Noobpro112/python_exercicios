@@ -25,3 +25,4 @@ media=media_idade/4
 print("A média de idade dos participantes são: {} anos".format(media))
 print("A quantidade de mulheres com menos de 20 anos são: {}".format(mulher_menos_20))
 print("O homem mais velho é: {} ".format(h_nome_maior))
+#primeira vez que eu usei comentario efetivamente para a coompreensão do programa (isso não foi feito por chat GPT.)
