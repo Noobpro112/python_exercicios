@@ -6,7 +6,7 @@ for i in range(1, 5):
     nome = str(input('Digite o nome da {}ª pessoa : '.format(i))).strip()
     idade = int(input("Qual a idade da {}º pessoa: ".format(i)))
     sexo=str(input("Digite o sexo da {}º pessoa: ".format(i))).strip()
-    #Idade das mulheres
+    #Idade das mulheres 
     if sexo == "mulher" :
         if idade <=20:
             mulher_menos_20+=1

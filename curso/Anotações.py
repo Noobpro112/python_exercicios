@@ -111,3 +111,24 @@ Se quiser contrar ao contrario basta colocar -1 no numero que deseja chegar ou s
 for c in range(10, 0, -1): (Isso conta de trás para frente.) 
 e isso serve para contar de numero de 2 em 2 ou de 5 em 5 tanto faz, basta mudar o numero.
 """
+
+"""
+Laço de repetiçao (While)
+
+While pode ser definido em português como "enquanto" 
+
+ou seja, enquanto não chegue a isso ou enquanto não tenha isso faça:
+
+EX:
+
+enquanto não (objeto/algo):
+    faça isso
+
+Em python ficaria:
+
+while not (object/something)
+    do this.
+
+
+
+"""
