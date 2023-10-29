@@ -8,3 +8,4 @@ while quantos > 0:
     fn=f1
     f1=f2
     quantos-=1
+print("Essa é sua sequencia de fibonacci!")
