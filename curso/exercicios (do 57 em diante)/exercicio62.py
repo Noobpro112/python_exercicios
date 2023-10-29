@@ -8,7 +8,6 @@ while c>1:
         an =a1+(c - 1)*r
         if c1==c:
             an_quantidade=an
-            print(c1)
         c-=1
         print("A sequencia de numeros de sua PA pela quantidade de termos escolhidos por você é : {}".format(an))
     escolha = str(input("Quer mostrar mais termos? [Y/N]")).upper()
