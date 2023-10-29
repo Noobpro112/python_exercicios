@@ -7,7 +7,3 @@ while fatorial > 1:
     fatorial -= 1
 
 print("O resultado da sua fatorial é {}".format(fatorial_resultado))    
-
-
-
-
