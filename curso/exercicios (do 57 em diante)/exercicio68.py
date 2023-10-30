@@ -17,9 +17,11 @@ while True:
                 break
             elif num == 3 :
                 print("Você ganhou!")
+                break
         if escolha == "PEDRA" :
             if num == 1 :
                 print("Você ganhou!")
+                break
             elif num == 2 :
                 print("Você empatou!")
                 break
@@ -34,6 +36,7 @@ while True:
                 break
             elif num == 2 :
                 print("Você Ganhou!")
+                break
             elif num == 3 :
                 print("Você empatou!")
                 break
