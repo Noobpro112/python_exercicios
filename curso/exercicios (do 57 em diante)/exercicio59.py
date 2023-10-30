@@ -34,5 +34,3 @@ while True:
     if escolha == 5:
         break
 print("Acabou!")
-
-#Precisei do chatGPT, olharei no curso como fazer e irei corrigir!
