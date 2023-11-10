@@ -177,6 +177,7 @@ for posicao, comida in enumarate(lanche):
 da pra usar tb outros comandos dentro de tupla como o
 
 .index()
+.count() conta quantas vezes algo apareceu.
 
 exemplo
 
