@@ -129,6 +129,63 @@ Em python ficaria:
 while not (object/something)
     do this.
 
+Tupla:
+
+mais valores para apenas uma variavel.
+Ou seja, Variavel composta.
+Tem 3 maneiras de fazer as variaveis composta, sendo elas
+Tupla
+Lista
+Dicionario
+
+Agora falaremos da Tupla
+
+Suponhamos que temos uma variavel lanche com 4 variaveis
+lanche = (hamburgue, Suco, Pizza, Pudim)
+
+cada valor é um "numero" ou seja o 0 sera o "hamburgue" o 1 o "suco" e assim pro diante.
+
+se fizermos um print(lanche) ele vai printar TUDO
+se fizer um print(lanche[2]) ele vai printar a pizza.
+se fizer uma print(lanche[0:2]) ele vai printar o hamburgue e o suco, excluindo o 2 que seria a pizza.
+se fizer uma print(lanche[1:]) ele vai excluir o hamburgue e printar o resto.
+podemos usar também o comando (len) que vai mostrar a quantidade de valores dentro de uma variavel.
+
+vamos fazer um for.
+
+for comida in lanche:
+    print(f'Eu vou comer {comida}. )
+print("Comi pra caramba")
+
+ele vai printando cada valor fazendo a variavel comida uma variavel simples.
+
+AS TUPLAS SÃO IMUTÁVEIS ou seja, elas não mudam. é impossivel tirar um pudim da tupla. você não consegue mudar a tupla dentro do programa, apenas no codigo fora da execução.
+
+
+podemos ver a tupla funcionando com outro for que seria:
+
+for cont in range(0, len(lanche)):
+    print(lanche[cont])
+print("Muita comida")
+
+
+tem a maneira do enumerate tb.
+
+for posicao, comida in enumarate(lanche):
+    print(f'nome da comida na posição {posicao} é {comida})
+
+da pra usar tb outros comandos dentro de tupla como o
+
+.index()
+
+exemplo
+
+print(lanche.index('algo')) ele vai falar aonde o "algo" está, em que posição.
+
+
+
+
+
 
 
 """
