@@ -15,3 +15,4 @@ while True:
         print('Ok')
     else:
         print('Erro')
+print('Finalizado.')
