@@ -185,6 +185,65 @@ print(lanche.index('algo')) ele vai falar aonde o "algo" está, em que posição
 
 
 
+Lista:
+
+Aula 1 - 
+
+uma lista é usada colchetes []
+
+lanche = ['Hamburguer','suco','pizza','pudim']
+
+elas são mutaveis, ou seja elas mudam,
+
+se colocar lanche[3]='sorvete'
+o pudim virou o sorvete agora.
+
+
+para adicionar coisas na lista, extra em vez de mudar deve usar o comando .append('')
+ou seja ele cria um valor a mais
+
+existe o .insert(0,'')
+ele adiciona algo em um lugar especifico.
+
+para excluir algo podemos usar o "del" ou o .pop(local) ou .remove('valor')
+EX:
+
+del lanche[3]
+lanche.pop(3)
+lanche.remove('pizza')
+
+se não tiver algo dentro do .pop ele remove o ultimo item da lista.
+
+se quisermos saber se tem um valor especifico em uma lista podemos usar o if com o in ou seja :
+
+if 'pizza' in lanche:
+    lanche.remove('pizza')
+
+pode se criar lista com o range 
+
+EX:
+
+valores=list(range(4,11))
+
+e vai ficar 
+
+valores=[4,5,6,7,8,9,10]
+
+.sort() utilizado para deixar em ordem numérica.
+.sort(reverse=True) ordenado em ordem reversa.
+
+len(valores) mostra a quantidade de valores dentro de uma lista.
+
+ao criar uma lista e igualar a outra lista, elá cria uma ligação ou seja, se uma for mudada a outra tb muda.
+
+se quiser fazer uma copia vc deve fazer isso:
+
+a=['cavalo','bolsa']
+b=a[:]
+b[2]= 8
+
+pronto, vc fatia e fala que ele deve receber todos os numeros de A em vez de fazer uma ligação
+
 
 
 
