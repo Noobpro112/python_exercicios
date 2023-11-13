@@ -1,5 +1,7 @@
 lista=[int(input('Digite um numero: ')),int(input('Digite um numero: ')),int(input('Digite um numero: ')),int(input('Digite um numero: ')),int(input('Digite um numero: '))]
 
-lista_ordenada=list.sort()
+lista.sort()
+menor=lista[0]
+maior=lista[-1]
 
-print(f'Você digitou os seguintes numeros: {lista}, Seu menor numero é {lista_ordenada[0]} e o maior é {lista_ordenada[-1]}')
+print('Você digitou os seguintes numeros: {}, Seu menor numero é {} e o maior é {}'.format(lista,menor,maior))
