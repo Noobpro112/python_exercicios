@@ -193,7 +193,7 @@ uma lista é usada colchetes []
 
 lanche = ['Hamburguer','suco','pizza','pudim']
 
-elas são mutaveis, ou seja elas mudam,
+elas são mutaveis, ou seja elas mudam.
 
 se colocar lanche[3]='sorvete'
 o pudim virou o sorvete agora.
