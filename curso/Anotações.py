@@ -260,4 +260,17 @@ vai sair 'rafael'
 
 to buscando algo dentro de uma lista dentro de outra lista.
 
+vai adicionando os dados em laço for ou while pra ir adicionando de uma forma mais "rapida"
+
+
+EX:
+
+galera=list()
+dado=list()
+for c in range(0,3):
+    dado.append(str(input('Nome: )))
+    dado.append(int(input('Idade: )))
+    galera.append(dado[:])
+    dado.clear()
+prit(galera)
 """
