@@ -240,12 +240,24 @@ se quiser fazer uma copia vc deve fazer isso:
 
 a=['cavalo','bolsa']
 b=a[:]
-b[2]= 8
+b[1]= 'Bolsa' 
 
 pronto, vc fatia e fala que ele deve receber todos os numeros de A em vez de fazer uma ligação
 
+adicionar lista dentro de listas.
 
+dados=['rafael', 25]
+pessoas=[]
+pessoas.append(dados)
 
+vai ficar 
 
+pessoas[['rafael', 25],]
+
+print(pessoas[0][0])
+
+vai sair 'rafael'
+
+to buscando algo dentro de uma lista dentro de outra lista.
 
 """
