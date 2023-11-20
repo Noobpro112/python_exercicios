@@ -1,7 +1,11 @@
 matriz=[[ 0, 0, 0],[ 0, 0, 0],[ 0, 0, 0]]
+soma=terceira_coluna=0
 for l in range(0,3):
-    for c in range(1,4) :
+    for c in range(0,3) :
         matriz[l][c]=int(input(f'Digite um valor: '))
+
 print('-='*30)
-print('Acabou')
-print(matriz)
+for l in range(0,3):
+        for c in range(0,3):
+                print(f'[{matriz[l][c]:^5}]', end='')
+        print()
