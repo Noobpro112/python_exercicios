@@ -129,6 +129,8 @@ Em python ficaria:
 while not (object/something)
     do this.
 
+//////////////////////////////////////////////////////////////////////////////////////    
+
 Tupla:
 
 mais valores para apenas uma variavel.
@@ -183,7 +185,7 @@ exemplo
 
 print(lanche.index('algo')) ele vai falar aonde o "algo" está, em que posição.
 
-
+///////////////////////////////////////////////////////////////
 
 Lista:
 
@@ -273,4 +275,104 @@ for c in range(0,3):
     galera.append(dado[:])
     dado.clear()
 prit(galera)
+
+
+/////////////////////////////////////////////
+
+
+Dicionario:
+
+os dicionarios são indentificados pelas chaves {}
+
+ou seja:
+
+suponhamos que temos umalista chamada dados
+
+dados=list()
+
+contendo Pedro no indice 0 e 25 no indcice 1
+
+ai eu defino como um dicionario
+
+dados=dict()
+ou
+dados={}
+
+então podemos fazer a seguinte coisa:
+
+dados={'nome': Pedro, 'Idade': 25}
+
+e podemos printar da seguinte forma:
+print(dados['nome']) e vai sair "Pedro"
+
+caso queira adiconar um novo indice nesse dicionario o append não ira funcionar.
+
+então caso vc queira colocar por exemplo o sexo do pedro, basta fazer isso:
+
+
+dados['sexo']='M'
+
+pronto, por ser um dicionario ele ficara dessa forma.
+
+caso queira remover basta usar o del ou seja,
+
+del dados['sexo']
+
+podemos fazer um dicionario da seguinte forma tb:
+
+filme= { 'Titulo' : 'Star Wars',
+    'Ano':1977,
+    'Diretor': 'George Lucas'
+}
+
+caso eu queira pegar apenas os valores de um dicionario eu posso usar o 
+
+prit(filme.values())
+
+necessario o () pois é um comando interno.
+
+oque ele me daria disso? apenas o "Star wars" "1977" e "George Lucas"
+
+caso eu queira apenas os indices eu posso usar o comando keys, substituindo obviamenet o values
+
+caso eu queira ambos posso usar o comando "items" que mostra ambos de uma maneira mais "organizada"
+
+um exemplo igual o do "enumerate" das tuplas e litas é usando o laço for com o items,
+(Utilizando o dicionario filme a cima das anotações.)
+for k,v in filme.items():
+    print(f'O {k} é {v}')
+break
+
+você pode utilizar uma lista para organizar os dicionarios, ex
+
+locadora=list()
+filme1= { 'Titulo' : 'Star Wars',
+    'Ano':1977,
+    'Diretor': 'George Lucas'
+}
+filme2= { 'Titulo' : 'Menino Maluquinho',
+    'Ano': 1995,
+    'Diretor': 'Ziraldo Alves Pinto'
+}
+locadora.append(filme1)
+locadora.append(filme2)
+print(locadora)
+
+
+Uma outra forma de poder ver os itens do dicionario dentro de uma lista é usar o seguinte print.
+
+print(locadora[0]['Titulo'])
+
+colocamos em pratica agora:
+filme=dict()
+locadora=list()
+
+for c in range(0,3):
+    filme{'Titulo'}=str
+    
+
+
+
+
+
 """
