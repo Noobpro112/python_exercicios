@@ -1,7 +1,8 @@
-filme= { 'Titulo' : 'Star Wars',
-    'Ano':1977,
-    'Diretor' : 'George Lucas'
-}
+filme=dict()
+locadora=list()
 
-for k,v in filme.items():
-    print(f'O {k} é {v}')
+for c in range(0,3):
+    filme['Titulo']=str(input('Digite o titulo do filme: '))
+    filme['Ano'] = int(input('Digite o ano de lançamento do filme: '))
+    locadora.append(filme.copy())
+print(locadora)
