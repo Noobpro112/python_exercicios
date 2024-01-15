@@ -410,4 +410,41 @@ e basta colocar o reverse pra ficar do maior para o menor.
 ele acaba virando uma lista, e ai vc deve tratar ele como uma lista.
 
 
+
+
+
+Função!
+
+função nada mais nada menos é do que criar um tipo de uma função estilo o print, ou o str, ou o int, só que da forma que nós queremos, ou seja, da minha necessidade
+
+a função pode ser criada usando a palavra "def"
+
+def MostraLinha()
+    print('_'*20)
+
+    
+MostraLinha()
+print('Cadastro de Aluno')
+MostraLinha()
+
+
+esse é um exemplo perceptivel da criação de uma função.
+
+podemos tambem colocar parametros, digamos que tenho que fazer uma função que envia uma mensagem.
+
+def mensagem(msg)
+    print('-'*30)
+    print(msg)  note que não tem aspas
+    print('-'*30)
+
+e como ficaria?
+
+exatamente assim:
+
+mensagem('Olá, você recebeu uma mensagem')
+
+
+literalmente essa unica linha é todo o codigo.
+
+
 """
