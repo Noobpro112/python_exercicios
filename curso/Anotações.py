@@ -380,8 +380,34 @@ for e in locadora:
         
 Perfeito.
 
+colocar o dicionario em ordem =
+
+colocamos um programa de dados tipo esse :
 
 
+import random
+import operator
+from time import sleep
+resultado=list()
+jogador=dict()
+
+for c in range(1,5):
+    jogador['nome']=str(input(f'Digite o nome do jogador {c}: '))
+    jogador['jogada']=random.randint(1,6)
+    sleep(1)
+    print(f'o jogador {jogador["nome"]} tirou {jogador["jogada"]} no dado!')
+    resultado.append(jogador.copy())
+
+
+e para colocar em ordem basta usar o sorted ouse ja coloqeu em baixo dessa forma utilizando a importação chamada operator, para pegar o itemgetter.
+
+ranking= sorted(jogo.items(), key=itemgetter(1), reverse=True)
+
+o item getter serve pra pegar o 2 tipo de entrada, ou seja os numeros sorteados e não o primeiro que seria ordem alfabetica.
+
+e basta colocar o reverse pra ficar do maior para o menor.
+
+ele acaba virando uma lista, e ai vc deve tratar ele como uma lista.
 
 
 """
