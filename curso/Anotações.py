@@ -446,5 +446,36 @@ mensagem('Olá, você recebeu uma mensagem')
 
 literalmente essa unica linha é todo o codigo.
 
+podemos fazer tb umka função de soma. ex:
+
+def soma(a,b):
+    print(f'A = {a} e B={b})
+    s=a+b
+    print(f'A soma de {a} + {b} é: {s})
+
+break
+
+enpacotamento de dados.
+
+quando você não souber quantos itens sera colocados dentro dos parenteses você deve usaro  * para indicar que pode ser varios EX:
+
+def contador(*num):
+
+e podemos fazer um programa que le a quantidade de valores
+
+
+def contador(8num)
+    tamanho=len(num)
+    print(f'Recebi os valores {num} e são ao todo {tamanho} números)
+
+
+agora vamos usar uma lista.
+
+ex:
+
+def dobrar(list)
+    
+
+
 
 """
