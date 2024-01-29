@@ -1,7 +1,7 @@
 def maior(*numeros):
     print('')
     print('Analisando dados!')
-    print('~~~~'*4)
+    print('~~~~'*8)
     lista=numeross[:]
     lista.sort()
     print(f'o maior é {lista[-1]}')
