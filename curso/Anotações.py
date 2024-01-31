@@ -475,6 +475,67 @@ ex:
 
 def dobrar(list)
     
+Interactive help - 
+
+pode ser chamado pela função help()
+
+utilizado pelo console e basta colocar o comando que deseja saber oque faz. não só isso como tb serve para biblioteca, para sair basta escrever "quit"
+
+alem do help existe o __doc__
+serve da mesma forma mas pode ser usado em um print EX:
+print(input.__doc__)
+pronto mesma coisa que o: 
+help(input)
+mas com algumas modificações na fala.
+
+
+Docstrings-
+
+vc cria o manual da def que vc criou, basta colocar 3 aspas duplas e fechar logo em seguidam tudo oque foi escrito ali é a docstring
+
+Parâmetros Opcionais:
+
+são parametros que podem ser usados ou não, ex:
+
+def somar(a,b,c):
+    s=a+b+c
+    print(f'A soma vale {s}')
+nessa def caso o usuario não coloque o C daria problema, mas posso contornar isso simplesmente fazendo o seguinte ato: 
+def somar(a,b,c=0):
+    s=a+b+c
+    print(f'A soma vale {s}')
+sim, exatamento, posso apenas definir a variavel para caso ela nunca seja colocada.
+
+
+
+Escopo de variaveis:
+escopo = lugar aonde a variavel vai existir.
+
+escopo local = aonde a variavel só vai existir em um lugar especifio, por exemplo apenas dentro de uma def
+
+escopo global = aonde a variavel sera puxada mesmo estrando em outras def ou não
+
+
+retornando valores - Return:
+
+ele retorna o valor para algo antes da def EX:
+
+def somar(a=0,b=0,c=0):
+    s=a+b+c
+    return s
+
+resp = somar(3,2,5)
+
+resp recebe o return.
+
+ai a gente pode brincar exatamente assim:
+
+r1=somar(3,2,5)
+r2=somar(1,5)
+r3=somar(4)
+print(f'A soma dos valores deu: {r1}, {r2} e {r3}.)
+
+
 
 
 
