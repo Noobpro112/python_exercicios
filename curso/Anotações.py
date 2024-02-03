@@ -535,8 +535,19 @@ r2=somar(1,5)
 r3=somar(4)
 print(f'A soma dos valores deu: {r1}, {r2} e {r3}.)
 
+Modularização - 
+
+Você importa um arquivo .py com muitas funções e utiliza eles como importação diminuindo o tamanho do codigo
 
 
+Pacote - Todo pacote deve conter um __init__.py 
 
+são pastas que pode conter mais pastas para guardar funções 
+
+As funções são guardadas dentro do __init__.py
+
+e a importação ocorre da seguinte forma - 
+
+from modules import numeros ### Aqui ele puxou o init do numeros.   
 
 """
