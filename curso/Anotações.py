@@ -550,4 +550,52 @@ e a importação ocorre da seguinte forma -
 
 from modules import numeros ### Aqui ele puxou o init do numeros.   
 
+Erros e Exceções:
+
+ValueError
+ZeroDivisionError
+TypeError
+IndexError / KeyError
+ModuleNotFoundError
+NameError
+EOFError
+KeyBoardInterrupt
+Oserror
+MemoryError
+ConnectionError
+RuntimeError
+
+Exception - Exceção
+
+Usamos 
+Try:
+    (operação)
+except:
+    (falha)
+else:
+    (deu certo)
+Finally:
+    (acontece se deu certo ou não.)
+EX:
+
+Try:
+    a = int(input('Numerador: '))
+    b = int(input('Denominador: '))
+    r = a / b
+except:
+    print('Infelizmente tivemos um problema...')
+else:
+    print(f'O resultado é {r:1f}')
+finally:
+    print('Volte Sempre! Muito Obrigado!')
+
+No except pode se usar um comando para achar o erro, exemplo:
+
+except:
+    print(f'Infelizmente tivemos um problema no {erro.(escohla oque você quer ver o problema.)}')
+
+
+
+
+
 """
