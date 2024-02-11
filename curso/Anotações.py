@@ -592,7 +592,20 @@ finally:
 No except pode se usar um comando para achar o erro, exemplo:
 
 except:
-    print(f'Infelizmente tivemos um problema no {erro.(escohla oque você quer ver o problema.)}')
+    print(f'Infelizmente tivemos um problema no {erro.(escolha oque você quer ver o problema.)}')
+
+E também podemos ter varios except.
+
+try:
+    algo
+except TypeError:
+    TypeError
+except ValueError:
+    ValueError
+e por ae vai.
+
+
+
 
 
 
