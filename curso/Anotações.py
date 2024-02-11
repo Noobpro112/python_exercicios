@@ -605,7 +605,7 @@ except ValueError:
 e por ae vai.
 
 
-
+Curso Finalizado. Obrigado e até o modulo 4!
 
 
 
